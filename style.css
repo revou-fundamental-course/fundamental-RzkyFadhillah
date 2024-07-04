@@ -1,0 +1,161 @@
+style. css
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #ddd;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.hero img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.headquarters {
+    text-align: center;
+    padding: 50px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.headquarters h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.headquarters .locations {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.headquarters .location {
+    text-align: center;
+}
+
+.headquarters .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+
+.headquarters .location p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.contact form input,
+.contact form select,
+.contact form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.contact .details {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
